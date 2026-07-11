@@ -9,7 +9,13 @@ Layer paling atas dalam hirarki otomasi course ini: sistem yang mengatur & mende
 ## Poin Kunci
 
 - Definisi: sistem yang mengatur & menghubungkan beberapa agent/tools untuk mencapai tujuan bisnis; bisa diaplikasikan ke industri apa aja (e-commerce, trading, restoran) (<Course 6, [00:11:43](https://www.youtube.com/watch?v=8zijFHRJWfQ&t=703s)>)
-- Prasyarat: harus udah punya beberapa Agent/Tools yang **bener-bener dipakai sehari-hari & jalan bener** dulu, baru bikin Orchestrator (<Course 6, [00:06:49](https://www.youtube.com/watch?v=8zijFHRJWfQ&t=409s)>)
+- **Self-check 3 pertanyaan sebelum mulai Orchestrator** (<Course 6, [00:05:16](https://www.youtube.com/watch?v=8zijFHRJWfQ&t=316s)-[00:06:33](https://www.youtube.com/watch?v=8zijFHRJWfQ&t=393s)>):
+  1. Tools yang udah dibikin — beneran dipakai **tiap hari**, atau cuma sesekali dilirik?
+  2. Kalau udah ada Agent — jalan **rutin**, atau cuma sesekali dicoba doang?
+  3. Sejak pakai Tools/Agent itu, kerjaan beneran jadi **lebih efektif & efisien**, atau belum?
+- **Threshold scoring** (bikin skor bebas dari 3 pertanyaan di atas): skor **≤3** → **stop dulu**, jangan lanjut ke Orchestrator, balik build & pakein dulu Tools/Agent yang ada — "kalian belum butuh" Orchestrator, kalau dipaksain cuma jadi **overbuild** (<Course 6, [00:06:42](https://www.youtube.com/watch?v=8zijFHRJWfQ&t=402s)-[00:07:23](https://www.youtube.com/watch?v=8zijFHRJWfQ&t=443s)>). Skor **4-5** → itu tandanya udah waktunya **level up** ke Orchestrator (<Course 6, [00:08:36](https://www.youtube.com/watch?v=8zijFHRJWfQ&t=516s)>)
+- Prasyarat waktu: pakai Tools/Agent yang ada dulu minimal **1-2 minggu** konsisten sebelum nyoba lanjut, dan idealnya **berminggu-minggu sampai berbulan-bulan** biar beneran kerasa efeknya sebelum naik ke Orchestrator — ini bukan proses instan (<Course 6, [00:07:52](https://www.youtube.com/watch?v=8zijFHRJWfQ&t=472s)-[00:08:23](https://www.youtube.com/watch?v=8zijFHRJWfQ&t=503s)>)
+- **Warning "shiny object syndrome"**: Andre sendiri cerita udah build 20-30+ agent/tools, tapi yang beneran dipakai sehari-hari **kurang dari 5** — sisanya kebuang percuma karena rush building tanpa tahu dulu apa yang beneran dibutuhin (<Course 6, [00:09:28](https://www.youtube.com/watch?v=8zijFHRJWfQ&t=568s)-[00:10:44](https://www.youtube.com/watch?v=8zijFHRJWfQ&t=644s)>)
 - 3 kemampuan wajib Orchestrator: tau semua agent yang dimiliki, punya flow komunikasi buat atur tugas, bisa kumpulin hasil report dari tiap agent (<Course 6, [00:19:25](https://www.youtube.com/watch?v=8zijFHRJWfQ&t=1165s)>)
 - 4 base logic: delegasi tugas, tarik report, rangkum laporan (<Course 6, [00:31:59](https://www.youtube.com/watch?v=8zijFHRJWfQ&t=1919s)>)
 - Efek buat owner: naik "jabatan" dari operator/CEO jadi owner/komisaris — cukup kerja bareng Orchestrator buat dapat report harian (<Course 6, [00:32:14](https://www.youtube.com/watch?v=8zijFHRJWfQ&t=1934s)>)
