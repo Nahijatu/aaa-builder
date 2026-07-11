@@ -58,6 +58,7 @@ DILARANG nyaranin: Notion, Airtable, atau task-app yang butuh klik-klik manual.
 /sources    → raw input: link, ide, transkrip, artikel mentah
 /wiki        → SATU-SATUNYA knowledge base gw = OBSIDIAN VAULT (root folder-nya)
                isinya: SOP, framework, cara kerja tool, ilmu yang numpuk tiap sesi
+  index.md              → daftar isi semua halaman konsep di vault (lihat §5.1)
   log-YYYY-MM-DD.md    → log harian (auto, lihat §7)
   troubleshooting.md   → bug yang keulang (auto, lihat §7)
   hooks.md             → hook/angle konten yang works (auto, lihat §7)
@@ -74,6 +75,33 @@ clean format ala vault, bukan wall of text:
 - Pake tag: `#tag` (contoh: `#n8n`, `#bug`, `#hook`, `#agent`).
 - Link antar note pake `[[nama-note]]` (bukan markdown link `[]()`biasa), biar
   nyambung di graph view Obsidian.
+
+### 5.1 THREE-LAYER KNOWLEDGE SYSTEM (model Andrej Karpathy — LLM Wiki)
+
+Semua knowledge base gw ngikutin 3 layer, urutan baca dari bawah ke atas:
+
+1. **`/sources`** — raw & IMMUTABLE. Transkrip, artikel, link mentah. Sekali
+   ditulis/dipindah ke sini, **JANGAN DIEDIT LAGI**. Ini cuma dibaca, bukan
+   ditulis ulang. Kalau raw source-nya salah, tambahin source baru — jangan
+   modif yang lama.
+2. **`/wiki`** — synthesized knowledge. Halaman di sini gw tulis **per KONSEP**,
+   BUKAN per file source / per video / per artikel. Satu konsep bisa narik
+   insight dari banyak source sekaligus. Tiap halaman konsep isinya:
+   - Judul & ringkasan singkat
+   - Poin kunci (bullet)
+   - Cite sumber: link ke file di `/sources` + timestamp/anchor kalau ada
+     (link biasa `[]()`, karena source di luar vault Obsidian)
+   - `[[wikilink]]` ke halaman konsep lain yang relevan (cross-link, di
+     dalam vault)
+3. **`CLAUDE.md`** (file ini) — aturan & konstitusi. Paling atas, paling jarang
+   berubah.
+
+**Alur kerja wajib tiap kali nambah/update knowledge:**
+1. Baca `wiki/index.md` dulu — biar tau konsep apa aja yang udah ada, jangan
+   bikin duplikat halaman.
+2. Bikin halaman konsep baru ATAU update halaman yang udah ada di `/wiki`.
+3. Cross-link ke halaman-halaman konsep lain yang relevan pake `[[wikilink]]`.
+4. Update `wiki/index.md` biar halaman baru ke-list.
 
 ---
 
