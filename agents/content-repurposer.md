@@ -63,5 +63,5 @@ Dari 1 INPUT (link atau ide task repetitif), generate 3 aset ini:
    📁 **SAVE INI:** simpan output ke
    `/content/drafts/YYYY-MM-DD-[slug-topik].md`
    Kalau udah tayang, pindahin ke `/content/published/`.
-   🧠 **CATAT:** kalau ada angle/hook yang works, catat di `/2nd-brain/wiki/hooks.md`.
+   🧠 **CATAT:** kalau ada angle/hook yang works, catat di `/wiki/hooks.md`.
    ---

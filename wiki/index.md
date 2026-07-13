@@ -4,6 +4,10 @@
 
 Daftar isi semua halaman konsep di vault ini. Baca file ini dulu sebelum nambah/update halaman baru (lihat CLAUDE.md §5.1 — 3-Layer Knowledge System).
 
+## Agent Aktif
+
+- [[../agents/content-repurposer|content-repurposer]] — input 1 link/ide task repetitif → output 3 konten siap posting (LinkedIn Post, Carousel 7-slide, Twitter Thread)
+
 ## Andreas AI Builder Course
 
 Konsep-konsep dari [[andreas-course/smart-tools|Andreas AI Builder Course]] (Course 3-8; Course 1-2 belum ada transcript-nya di `/sources`):

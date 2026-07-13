@@ -108,6 +108,14 @@ clean format ala vault, bukan wall of text:
 - Link antar note pake `[[nama-note]]` (bukan markdown link `[]()`biasa), biar
   nyambung di graph view Obsidian.
 
+### 5.0 KNOWLEDGE BASE ENTRY POINT (baca ini duluan)
+
+> 📌 **Sebelum baca/edit file lain di project ini, buka `wiki/index.md` dulu.**
+> Itu entry point ringkas — isinya daftar agent aktif (link ke `/agents/*.md`)
+> + peta konsep yang udah ada di `/wiki`. Gunanya biar lo (atau Claude) gak
+> bikin duplikat agent/halaman konsep yang udah ada, dan langsung tau mau
+> lanjut baca ke mana.
+
 ### 5.1 THREE-LAYER KNOWLEDGE SYSTEM (model Andrej Karpathy — LLM Wiki)
 
 Semua knowledge base gw ngikutin 3 layer, urutan baca dari bawah ke atas:
