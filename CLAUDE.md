@@ -227,3 +227,33 @@ Di akhir tiap sesi, SELALU tanya ke user:
   4. Kasih tau **commit hash**-nya ke user.
 - Kalau user jawab **n/tidak** → skip, jangan commit/push apapun.
 - Ini pertanyaan, bukan asumsi — jangan pernah auto-commit tanpa konfirmasi.
+
+## 9. SKILL DISCOVERY POLICY (AUTO)
+
+Setiap kali gue minta bikin agent/chatbot/website/automation baru, SEBELUM nulis kode, lo WAJIB jalanin langkah ini otomatis tanpa gue minta:
+
+1. IDENTIFIKASI kebutuhan task (frontend UI? scraping? data? messaging? animasi? dll).
+
+2. CEK skill/plugin yang UDAH ke-install dulu (anthropics/skills, superpowers, 21st.dev). Kalau ada yang cocok, pakai itu — gak usah cari keluar.
+
+3. Kalau belum ada yang cocok, CARI opsi eksternal (repo GitHub / Claude skills) dan ranking pakai kriteria ini, URUT prioritas:
+   a. Masih aktif di-maintain (commit terakhir < 3 bulan) — ini filter WAJIB, repo mati langsung di-skip walau starnya banyak.
+   b. Cocok sama stack gue (Node.js, n8n, Postgres, React/shadcn).
+   c. Popularitas (stars + forks) sebagai tie-breaker, BUKAN patokan utama.
+   d. Ringan & fokus — hindari repo raksasa yang 90% fiturnya gak gue pakai.
+
+4. LAPOR ke gue: kasih maksimal 3 rekomendasi teratas, format:
+   - Nama + link
+   - Stars/forks + kapan terakhir di-update
+   - Kenapa ini cocok buat task gue
+   - 1 baris trade-off / kekurangannya
+   Terus TUNGGU gue approve sebelum install/pakai.
+
+5. Setelah gue pakai satu skill, CATAT di /wiki/skills-used.md (nama skill + buat agent apa + tanggal) biar next agent bisa reuse tanpa cari ulang. Ini bagian dari prinsip Compound, Not Reset.
+
+6. SARANIN LAYANAN EKSTERNAL kalau relevan. Kalau task gue butuh sesuatu yang lebih bagus dikerjain pakai layanan/tool khusus (misal: animasi → Rive atau LottieFiles; komponen UI → 21st.dev atau shadcn/ui; ikon → Lucide), sebutin ke gue "buat X, mending pakai [layanan] karena [alasan]".
+   - Kalau layanan itu punya MCP server / Claude integration resmi, kasih tau gue cara connect-nya.
+   - Kalau enggak, cukup kasih link + kenapa itu worth dipakai.
+   Prioritasin yang gratis / ada free tier dulu, dan yang output-nya bisa gue kontrol (bukan black box).
+
+ATURAN: jangan pernah auto-install tanpa approval gue. Jangan rekomendasiin repo yang gak bisa lo verifikasi masih aktif. Kalau gak ada opsi eksternal yang lolos filter, bilang jujur dan tawarin bikin custom skill di /skills lokal.
