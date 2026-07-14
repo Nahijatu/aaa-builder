@@ -6,7 +6,14 @@ Daftar isi semua halaman konsep di vault ini. Baca file ini dulu sebelum nambah/
 
 ## Agent Aktif
 
-- [[../agents/content-repurposer|content-repurposer]] — input 1 link/ide task repetitif → output 3 konten siap posting (LinkedIn Post, Carousel 7-slide, Twitter Thread)
+Pipeline konten sekarang = **Researcher → Scriptwriter → Reviewer** (feedback loop, tolak skor <8). Content mode: educator-first — ngajarin, bukan jualan (lihat [[voice]]).
+
+- [[../agents/01-researcher|01-researcher]] — sumber mentah (transkrip/berita/ide) → ringkasan poin inti + fakta terverifikasi
+- [[../agents/02-scriptwriter|02-scriptwriter]] — poin inti → 3 opsi hook (pilih 1) → full draft carousel Design-Ready, wajib baca [[voice]]
+- [[../agents/03-reviewer|03-reviewer]] — kritik tajam + skor 1-10 per 5 kriteria, TOLAK kalau <8 dengan revisi konkret
+
+### Archived
+- [[../agents/_archive/content-repurposer|content-repurposer]] *(ARCHIVED — dipindah ke `agents/_archive/`, digantiin pipeline 3-agent di atas)* — agent lama monolitik (research+writing+formatting jadi satu), gak ada feedback loop
 
 ## Andreas AI Builder Course
 
