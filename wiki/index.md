@@ -17,6 +17,11 @@ Pipeline konten sekarang = **Researcher → Scriptwriter → Reviewer** (feedbac
 
 ## Andreas AI Builder Course
 
+Status project sekarang: **Tools** (lihat [[andreas-course/smart-tools]]).
+Belum naik ke [[andreas-course/ai-agents]] — nunggu memory loop persisten.
+Roadmap penuh: [[andreas-course/smart-tools]] → [[andreas-course/ai-agents]]
+→ [[andreas-course/orchestrator]] → [[andreas-course/loop-engineering]].
+
 Konsep-konsep dari [[andreas-course/smart-tools|Andreas AI Builder Course]] (Course 3-8; Course 1-2 belum ada transcript-nya di `/sources`):
 
 - [[andreas-course/smart-tools|Smart Tools]] — sistem otomasi dasar: trigger → data → proses → delivery, belum punya memori
