@@ -39,6 +39,18 @@ Musuh gw: pekerjaan manual, copy-paste, dan "besok ngulang lagi".
 
 ---
 
+## 2.1 MEMORY LOOP (status: Agent — naik dari Tools per 2026-07-14)
+Pipeline konten sekarang punya memory persisten:
+- **Rules (statis):** wiki/voice.md
+- **Corrections (dinamis, terakumulasi):** memory/corrections.md
+- **Session log:** wiki/log.md, wiki/log-YYYY-MM-DD.md (sudah ada, §7)
+02-scriptwriter WAJIB baca rules + corrections sebelum nulis. Setiap
+koreksi yang diadopsi user WAJIB ditulis ke corrections.md. Ini yang
+membedakan sistem ini dari "Tools" — makin lama makin nyerupai gaya user
+tanpa diajarin ulang tiap sesi.
+
+---
+
 ## 3. GAYA BAHASA (wajib)
 
 - To-the-point, casual, **tapi sangat teknikal** — teknikal itu di ISI-nya (step konkret, command

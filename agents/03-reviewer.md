@@ -59,3 +59,7 @@ Baca DRAFT, lalu nilai pakai 5 kriteria ini (masing-masing skor 1-10):
 3. **Cek akurasi serius.** Konten edukasi yang salah fakta lebih bahaya dari yang ngebosenin.
 4. Kalau TOLAK, output lo langsung bisa dipakai user buat suruh 02-scriptwriter revisi.
 5. Jangan nulis ulang draftnya sendiri. Lo NILAI & ARAHIN, Scriptwriter yang eksekusi.
+6. Kalau user ADOPSI revisi yang lo kasih (bukan cuma dikasih tau, tapi
+   beneran dipakai), itu WAJIB dicatat sebagai entry baru di
+   memory/corrections.md — format sesuai template di file itu. Ini bagian
+   dari memory loop, jangan skip.
