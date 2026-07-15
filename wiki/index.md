@@ -15,6 +15,9 @@ Pipeline konten sekarang = **Researcher → Scriptwriter → Reviewer** (feedbac
 ### Archived
 - [[../agents/_archive/content-repurposer|content-repurposer]] *(ARCHIVED — dipindah ke `agents/_archive/`, digantiin pipeline 3-agent di atas)* — agent lama monolitik (research+writing+formatting jadi satu), gak ada feedback loop
 
+## Bank Topik Konten (calon bahan 01-researcher)
+- [[ai-skills-gap]] — kesenjangan skill AI lulusan vs pemberi kerja (data Indonesia + global), studi Pearson x AWS
+
 ## Andreas AI Builder Course
 
 Status project sekarang: **Tools** (lihat [[andreas-course/smart-tools]]).

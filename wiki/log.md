@@ -8,3 +8,6 @@ Entry terbaru di paling bawah (append-only).
 
 ## 2026-07-11
 - **[SESSION]** Bikin auto-logging system (§7.1 watch history, §7.2 building sessions) di CLAUDE.md, adaptasi langsung dari prompt resmi Andre di Course 7. Terus self-audit CLAUDE.md vs 6 transcript course, ketemu 6 gap dan langsung diterapin ke §2/§3/§4. Source: `sources/sessions/2026-07-11-dev-session.md`. Wiki: CLAUDE.md §2, §3, §4, §7.1, §7.2 (bukan halaman `/wiki` konsep, tapi rules file itu sendiri).
+
+## 2026-07-15
+- **[WATCH]** Artikel ANTARA — 53% pemberi kerja global kesulitan nemuin lulusan siap AI, Indonesia pengangguran lulusan naik 6,23% (studi Pearson x AWS). Source: `sources/watch/2026-07-15-53-persen-pemberi-kerja-kesulitan-ai.md`. Wiki: [[voice]] (baru: [[ai-skills-gap]])
