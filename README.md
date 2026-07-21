@@ -1,27 +1,16 @@
-# The AI-Agent Builder — Workspace
+# aaa-builder — Owner's Office
 
-Automation agency. Misi: bikin task repetitif ilang selamanya.
+Repo ini berisi 2 venture terpisah milik founder yang sama:
 
-## Quick start
-1. Buka folder ini di VS Code.
-2. Pastiin Claude Code aktif — dia auto-baca `CLAUDE.md`.
-3. Jalanin agent: lihat `/agents/`.
+| Folder | Venture | Fungsi |
+|---|---|---|
+| [`content-praxionai/`](content-praxionai/) | Personal brand / media edukasi AI | Pipeline konten (research → script → review), voice/knowledge base, arsip draft & publish |
+| [`gtm-agency/`](gtm-agency/) | AI Automation Agency (AAA) — startup B2B | Strategi GTM & akuisisi klien, modul tool agency (baru dibangun) |
 
-## Stack (4-layer workflow harian)
-| Layer | Tool | Peran |
-|-------|------|-------|
-| Kerja | VS Code | tempat kerja — buka repo ini |
-| Eksekusi | Claude Code | jalanin agent, generate, debug |
-| Knowledge base | Obsidian | baca/nulis `/wiki`, graph view antar note |
-| Histori | GitHub | commit = jejak kerja, compound tiap sesi |
+Root ini sendiri **bukan tempat eksekusi teknis** — cuma isi keputusan strategi & alokasi resource founder di kedua venture (lihat `CLAUDE.md`).
 
-> Ini beda sama tool stack production (n8n, Railway, Postgres, dst) di `CLAUDE.md` §4 — itu buat automation klien, ini buat workflow harian gw sendiri.
+## Mau kerja di venture yang mana?
+- Konten, posting, riset edukasi AI → masuk ke `content-praxionai/`
+- GTM, outreach, klien, tool agency → masuk ke `gtm-agency/`
 
-## Struktur
-- `/sources`   raw input (link, ide, transkrip)
-- `/wiki`       Obsidian Vault — knowledge base permanen (log harian, troubleshooting, hooks)
-- `/agents`     definisi + prompt tiap agent
-- `/content`    output (`/drafts`, `/published`)
-- `/scripts`    n8n export, python, bash
-
-Prinsip: **Compound, Not Reset.**
+Tiap folder punya `CLAUDE.md` sendiri dengan SOP & filosofi spesifik venture itu — jangan dicampur satu sama lain.
